@@ -140,6 +140,7 @@ hr {
 
 a {
   color: #4c6ef5;
+  transition: all 0.1 ease-in-out;
 }
 
 a:hover {
@@ -151,7 +152,7 @@ a:visited {
 }
 
 a:active {
-  color: #5c7cfa;
+  color: #4263eb;
 }
 
 /*---------------------------------------/*
