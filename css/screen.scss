@@ -259,19 +259,17 @@ hr {
 a {
   color: $color-primary;
   transition: all 0.1 ease-in-out;
+  &:hover {
+    color: $color-primary-light;
+  }
+  &:visited {
+    color: $color-primary;
+  }
+  &:active {
+    color: $color-primary-dark;
+  }
 }
 
-a:hover {
-  color: $color-border-light;
-}
-
-a:visited {
-  color: $color-primary;
-}
-
-a:active {
-  color: $color-primary-dark;
-}
 
 /*---------------------------------------/*
  # OBJECTS
